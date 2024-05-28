@@ -4,6 +4,9 @@
 /* Light Red: #AE445A */
 /* Yellow: #F39F5A */
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: #451952;
@@ -13,25 +16,46 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     color: #F39F5A;
 }
 
+p {
+    text-align: center;
+    width: 50%;
+    margin: 1rem auto;
+}
+
 h1 {
     text-align: center;
     font-weight: bold;
+    margin: 10px;
+    font-size: 3rem;
+}
+
+h3 {
+    margin-bottom: .5rem;
+    font-size: x-large;
+    margin-left: -1rem;
 }
 
 img {
     height: 300px;
     width: 300px;
+    margin: 0px auto;
+    display: block;
 }
 
-button, .back-button, .select-button {
+.back-button, .select-button {
     background-color: #662549;
+    display: block;
 }
 
 .select-button {
     font-weight: bold;
     font-size: larger;
+    margin: 2% auto;
+    width: 40%;
 }
 
 .back-button {
     font-size: medium;
+    width: 10%;
+    height: 10%;
 }
